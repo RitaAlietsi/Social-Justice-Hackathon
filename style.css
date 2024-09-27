@@ -1,0 +1,77 @@
+
+
+
+body{
+    background-color: rgba(12, 11, 10, 0.753);
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+    border: 5px #f4f4f4 solid;
+    border-width: 3px;
+    border-style: solid;
+}
+
+
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-decoration: underline dotted;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+}
+
+
+.my-form{
+    padding: 20px;
+}
+
+
+.form-group{
+    padding: 15px;
+}
+
+
+.my-form label{
+    display: block;
+}
+
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 65%;
+}
+
+
+.my-form input[type="submit"]{
+    background-color: #d12020;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+
+.my-form input[type="submit"]:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+

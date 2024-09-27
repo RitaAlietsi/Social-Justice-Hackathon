@@ -60,7 +60,7 @@ connection.query('USE corrupt', (err, result) => {
 });
 
 //Create Table
-/*const report = `CREATE TABLE report (
+const report = `CREATE TABLE report (
     id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     accused VARCHAR(255) NOT NULL,
     position VARCHAR(255) NOT NULL,
@@ -77,7 +77,7 @@ connection.query(report, (err, result) => {
     }
     console.log('Report Table created successfully');
 });
-*/
+
 
 
 
