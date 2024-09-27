@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corruption Reporting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <h1 class="h1">Corruption Reports</h1>
+        <div class="box1">
+            <h3>Take Action: Report Corruption Anonymously. </h3>
+                <p>Corruption flourishes in silence and secrecy, often going unchecked due to fear, 
+                    indifference, or ignorance. However, each person has the potential to drive change. 
+                    If you observe any instances of corruption, please report them.
+                </p>
+            </p>
+        </div>    
+        <div class="box2">
+        <h3>Your Safety and Anonymity Matter</h3>        
+                <p>We recognize that coming forward can be intimidating. 
+                    Concerns about retaliation may prevent many from speaking out. 
+                    That’s why we provide a fully anonymous reporting system. Your identity will be safeguarded throughout the process, 
+                    ensuring that your personal information remains confidential and secure, allowing you to voice your concerns without fear.
+                </p>
+        </div>
+        <div class="box3">
+            <h3>The Value of Your Voice</h3>
+                <p>Reporting corruption means actively engaging in a broader movement for justice and accountability. 
+                    Each report helps build a clearer picture of the corruption landscape in our communities, allowing authorities to 
+                    identify patterns of wrongdoing and take effective action.
+                </p>        
+            </p>
+        </div>
+        <div class="box4">   
+            
+                <h3>Collective Impact for Social Change</h3>
+                    <p>Corruption affects both individuals and entire communities, eroding the trust that binds society.
+                        Reporting corruption sends a strong message that dishonest practices are unacceptable and that we demand accountability. 
+                        By uniting in this fight, we can foster a more equitable society. Each report enhances transparency and good governance, 
+                        restoring trust in public institutions. Your actions can inspire others, creating a ripple effect that encourages integrity and 
+                        civic responsibility.
+                    </p>
+        </div>     
+    
+
+    <div class="form-group"></div>
+        <h2>Corruption Reporting Form</h2>
+        <form id="reportForm" method="POST" class="my-form">
+            <input type="hidden" id="id" name="id">
+            <div>
+                <label for="name">Accused:</label>
+                <input type="text" id="accused" name="accused" required>
+            </div>
+            <div> 
+                <label for="name">Rank/Position of Accussed:</label>
+                <input type="text" id="position" name="position" required>
+            </div>   
+            <div>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+            <div> 
+                <label for="name">Location of incidence:</label>
+                <input type="text" id="location_incidence" name="location_incidence" required>
+            </div>
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required></input>
+            </div>        
+                <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
